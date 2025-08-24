@@ -1,0 +1,434 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+h1{
+    font-weight: 700;
+}
+body{
+    position: relative;
+}
+header{
+    width: 100%;
+    background-image: url("images/hero-base.png");
+    background-size: cover;
+    height: 965px;
+}
+nav, .nav{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+    margin: 0 auto;
+    gap: 90px;
+}
+.profile p{
+    color: white;
+    font-size: 20px;
+    width: 73px;
+    margin-bottom: 0;
+}
+nav a{
+    color: #A9AFB7;
+    text-decoration: none;
+}
+.profile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile .y{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #3B90F3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+nav .links{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: none;
+}
+.media_links{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+}
+.media_links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.media_links div{
+    padding: 10px 0;
+}
+.media_links div:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+.media_links div:hover a{
+    color: #1E2B36;
+    transition: 0.3s;
+}
+.nav button{
+    background-color: transparent;
+    border: 0;
+}
+header h1{
+    width: 50%;
+    margin: 0 auto;
+    min-width: 600px;
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 3.5em;
+    line-height: 75px;
+}
+header > p{
+    max-width: 410px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: #A9AFB7;
+    line-height: 32px;
+    word-wrap: break-word;
+    font-size: 20px;
+    line-height: 40px;
+}
+.booking{
+    width: 601px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+.booking *{
+    color: #A2B0BA;
+    border: 0;
+}
+.booking .inputs{
+    display: flex;
+    align-items: center;
+}
+.booking .seperator{
+    width: 1px;
+    height: 30px;
+    background-color: #A2B0BA;
+}
+.booking button{
+    width: 200px;
+    height: 50px;
+    background-color: #3B90F3;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
+.booking button:hover{
+    cursor: pointer;
+}
+.booking input{
+    width: 180px;
+    padding-left: 20px;
+    height: 50px;
+}
+input:focus-visible{
+    outline: none;
+}
+.booking input::placeholder{
+    color: #A2B0BA;
+}
+.after_header img{
+    width: 100%;
+}
+.after_header{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -350px);
+    max-width: 1240px;
+    width: 95%;
+    z-index: 1;
+}
+.after_header div{
+    width: 80%;
+    background-color: #C4C4C4;
+    height: 7%;
+    position: absolute;
+    bottom: 7%;
+    right: 0;
+}
+.experienced{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.another{
+    margin-top: 200px;
+}
+.experienced > div{
+    max-width: 500px;
+    min-width: 300px;
+}
+.experienced h1{
+    max-width: 300px;
+    font-size: 40px;
+    line-height: 50px;
+}
+.another h1{
+    max-width: 400px;
+}
+.experienced p{
+    margin: 35px 0;
+    color: #585C65;
+    line-height: 32px;
+}
+.experienced button{
+    padding: 15px 25px;
+    color: white;
+    background-color: #3B90F3;
+    border: 0;
+}
+.experienced img{
+    max-width: 470px;
+    width: 100%;
+    min-width: 300px;
+}
+.trusted{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 200px;
+}
+.trusted div{
+    display: flex;
+    align-items: center;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 70px;
+}
+.trusted h1{
+    max-width: 417px;
+    font-size: 40px;
+    line-height: 57px;
+}
+.newsletter{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: #3B90F3;
+    text-align: center;
+    color: white;
+    padding: 2.5%;
+}
+.newsletter h1{
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 64px;
+}
+.newsletter p{
+    max-width: 630px;
+    margin: 50px auto;
+}
+.newsletter .btn_input{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.newsletter input{
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+    color: #FFFFFF80;
+}
+.newsletter input::placeholder{
+    color: #FFFFFF80;
+}
+.newsletter .btn_input div{
+    display: flex;
+    align-items: center;
+    background-color: #58A1F5;
+    gap: 20px;
+    padding: 5px 2%;
+    padding-right: 8%;
+}
+.newsletter button{
+    color: white;
+    background-image: linear-gradient(#3D5374, #151F25);
+    padding-left: 2%;
+    padding-right: 2%;
+    font-weight: 600;
+}
+footer{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+footer section:first-child{
+    max-width: 341px;
+}
+footer section:nth-child(2){
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 100px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+footer ul{
+    list-style-type: none;
+    line-height: 60px;
+    padding-left: 0;
+}
+footer li{
+    font-size: 18px;
+}
+footer ul li:first-child{
+    font-size: 20px;
+    font-weight: 600;
+}
+footer section p{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.second_yemano{
+    color: black !important;
+    font-weight: 600;
+    margin-bottom: 0.5rem !important;
+}
+.logos{
+    display: flex;
+    gap: 30px;
+}
+@media screen and (max-width: 768px) {
+    nav{
+        display: none;
+    }
+    .nav{
+        display: flex;
+    }
+    header h1{
+        font-size: 36px;
+        line-height: 50px;
+        margin-top: 35px;
+        max-width: 400px;
+        min-width: 300px;
+    }
+    header > p{
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .booking{
+        flex-direction: column;
+        width: 80%;
+        gap: 20px;
+    }
+    .booking > div{
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+    .booking button{
+        width: 100%;
+    }
+    .booking input{
+        width: 45%;
+        padding-left: 0;
+    }
+    .after_header{
+        transform: translate(-50%, -400px);
+    }
+    .newsletter h1{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .newsletter p{
+        margin: 30px auto;
+    }
+    .newsletter .btn_input{
+        flex-direction: column;
+    }
+    .newsletter button{
+        padding: 15px 0;
+    }
+    .newsletter .btn_input div{
+        padding: 7px 0;
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 1440px){
+    .experienced{
+        gap: 80px;
+        width: 80%;
+        justify-content: space-between;
+    }
+    .experienced img{
+        width: 400px;
+    }
+    .trusted{
+        width: 90%;
+    }
+    .trusted img{
+        height: 35px;
+    }
+    .newsletter, footer{
+        width: 85%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .experienced{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .experienced img{
+        order: 2;
+    }
+    .experienced div{
+        order: 1;
+    }
+    .trusted{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .trusted h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .trusted div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .newsletter, footer{
+        width: 95%;
+    }
+}
